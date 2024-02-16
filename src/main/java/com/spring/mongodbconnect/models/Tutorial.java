@@ -14,7 +14,7 @@ import java.util.List;
 @ToString(exclude = {"idNum"})
 public class Tutorial {
     @Id
-    private int idNum;
+    private String idNum;
 
     private String name;
     private String instructorName;
